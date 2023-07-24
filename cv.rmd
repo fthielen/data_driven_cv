@@ -86,6 +86,14 @@ CV %<>% print_text_block("intro")
 ```
 
 
+Current positions {data-icon=laptop-file data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('current')
+```
+
+
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -105,7 +113,6 @@ CV %<>% print_section('research_positions')
 
 
 
-
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -118,6 +125,15 @@ CV %<>% print_text_block('teaching_experience_aside')
 ```{r}
 CV %<>% print_section('teaching_positions')
 ```
+
+
+Honours & Awards {data-icon=award}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('honours_awards')
+```
+
 
 
 Selected publications as first author {data-icon=book}
